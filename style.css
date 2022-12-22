@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Krub:wght@400;700&family=Zilla+Slab:wght@400;700&display=swap');
+body {
+	font-family: 'Krub', sans-serif;
+	margin: 0;
+	line-height: 1.5;
+	background-color: rgb(223, 223, 223);
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.card-container {
+	width: 21.875rem;
+	margin: 3.125rem auto;
+	background-color: #fff;
+}
+
+.card-container h1 {
+	font-family: 'Zilla Slab', serif;
+	line-height: 1.2;
+	padding: 1.875rem 3.125rem 0 3.125rem;
+	margin: 0.625rem 0;
+}
+
+.card-info {
+	text-align: left;
+	padding: 0 50px;
+	margin: 0.625rem 0 1.875rem 0;
+	color: rgb(123, 121, 121);
+}
+
+.card-price {
+	background-color: rgb(135, 213, 241);
+	text-align: center;
+	padding: 0;
+	font-size: 3rem;
+	font-weight: bold;
+}
+
+.card-payment {
+	text-align: center;
+	color: rgb(135, 121, 121);
+	padding: 10px 50px;
+}
+
+.course-values {
+	padding: 10px 50px;
+}
+
+.course-values ul {
+	list-style: none;
+}
+
+.course-values li {
+	line-height: 2.4;
+	color: rgb(88, 85, 85);
+}
+
+.course-values li img {
+	width: 0.9375rem;
+}
+
+.btn-container {
+	text-align: center;
+	padding: 30px;
+	margin: 0 0 1.25rem 0;
+}
+
+.btn-container a {
+	font-weight: bold;
+	color: rgb(14, 179, 239);
+	text-decoration: none;
+	text-transform: uppercase;
+	border: 1px solid rgb(178, 170, 170);
+	padding: 8px 90px;
+}
+
+.btn-container a:hover {
+	color: #fff;
+	background-color: rgb(14, 179, 239);
+	border-color: rgb(14, 179, 239);
+}
