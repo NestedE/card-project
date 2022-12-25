@@ -1,9 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Krub:wght@400;700&family=Zilla+Slab:wght@400;700&display=swap');
-body {
+html {
+	--color-white: rgb(255, 255, 255);
+	--color-skyblue-400: rgb(135, 213, 241);
+	--color-skyblue-500: rgb(14, 179, 239);
+	--color-grey-100: rgb(223, 223, 223);
+	--color-grey-300: rgb(178, 170, 170);
+	--color-grey-400: rgb(135, 121, 121);
+	--color-grey-500: rgb(88, 85, 85);
+	--color-grey-700: rgb(123, 121, 121);
+
 	font-family: 'Krub', sans-serif;
 	margin: 0;
 	line-height: 1.5;
-	background-color: rgb(223, 223, 223);
+	background-color: var(--color-grey-100);
 }
 
 * {
@@ -15,7 +24,7 @@ body {
 .card-container {
 	width: 21.875rem;
 	margin: 3.125rem auto;
-	background-color: #fff;
+	background-color: var(--color-white);
 }
 
 .card-container h1 {
@@ -29,11 +38,11 @@ body {
 	text-align: left;
 	padding: 0 50px;
 	margin: 0.625rem 0 1.875rem 0;
-	color: rgb(123, 121, 121);
+	color: var(--color-grey-700);
 }
 
 .card-price {
-	background-color: rgb(135, 213, 241);
+	background-color: var(--color-skyblue-400);
 	text-align: center;
 	padding: 0;
 	font-size: 3rem;
@@ -42,7 +51,7 @@ body {
 
 .card-payment {
 	text-align: center;
-	color: rgb(135, 121, 121);
+	color: var(--color-grey-400);
 	padding: 10px 50px;
 }
 
@@ -56,7 +65,7 @@ body {
 
 .course-values li {
 	line-height: 2.4;
-	color: rgb(88, 85, 85);
+	color: var(--color-grey-500);
 }
 
 .course-values li img {
@@ -71,15 +80,15 @@ body {
 
 .btn-container a {
 	font-weight: bold;
-	color: rgb(14, 179, 239);
+	color: var(--color-skyblue-500);
 	text-decoration: none;
 	text-transform: uppercase;
-	border: 1px solid rgb(178, 170, 170);
+	border: 1px solid var(--color-grey-300);
 	padding: 8px 90px;
 }
 
 .btn-container a:hover {
-	color: #fff;
-	background-color: rgb(14, 179, 239);
-	border-color: rgb(14, 179, 239);
+	color: var(--color-white);
+	background-color: var(--color-skyblue-500);
+	border-color: var(--color-skyblue-500);
 }
